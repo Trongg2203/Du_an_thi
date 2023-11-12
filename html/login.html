@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/asset/css/login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="banner">
+            <img src="/asset/logo/BR 3.png" alt="">
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="content_item">
+                    <div class="content_left white">
+                        <div class="user">
+                            <a><img src="/asset/img/avt.jpg" alt=""></a>
+                            <span> <br>User ID</span>
+                        </div>
+                        <div class="team-left lg-china">
+                            <div class="teams">
+                                <label for="">Đội thi(团队)</label>
+                                <select name="" id="">
+                                    <option value="">LacHong university</option>
+                                    <option value="">Rmit university</option>
+                                    <option value="">TonDucThang university</option>
+                                    <option value="">BK university</option>
+                                </select>
+                            </div>
+                            <div class="options">
+                                <label for="">Thể loại(类别)</label>
+                                <select name="" id="">
+                                    <option value="">Hát đơn ca</option>
+                                    <option value="">Nhảy</option>
+                                    <option value="">Múa</option>
+                                    <option value="">Diễn</option>
+                                </select>
+                                <button id = "btn-sub">Xác nhận (提交)</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="container">
+                <div class="footer-text">
+                    <p>@Giao diện được thiết kế bởi khoa Công Nghệ Thông Tin </p>
+                    <p><i class="fa-solid fa-phone"></i> (+84)251 3 952 251</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('btn-sub').addEventListener('click', function (){
+            window.location = 'http://127.0.0.1:5500/html/chamthi.html'
+        })
+    </script>
+
+</body> 
+
+</html>

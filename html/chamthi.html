@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chấm thi</title>
+    <link rel="stylesheet" href="/asset/css/chamthi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="banner">
+            <img src="/asset/logo/BR 01.png" alt="">
+            <div class="container">
+                <div class="thumbnail">
+                    <img src="/asset/logo/16.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="content-infor">
+                    <img src="/asset/img/user1.png" alt="">
+                    <div class="content-text">
+                        <p>Tên</p>
+                        <p>Trường</p>
+                        <p>Thể loại</p>
+                    </div>
+                </div>
+
+                <div class="content-labels">
+                    <div class="content-label">
+                        <div class="content-label-text">
+                            <h4 >1</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas odio culpa earum dignissimos,
+                                distinctio quam?</p>
+                            <p>该公司本身是一家非常成功的公司。他们应得什么样的仇恨和罪孽，有什么样的区别？</p>
+                        </div>
+                        <form action="">
+                            <label for="" >0/10</label>
+                            <input type="text">
+                        </form>
+                    </div>
+                    
+                    <div class="content-label">
+                        <div class="content-label-text">
+                            <h4 >1</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas odio culpa earum dignissimos,
+                                distinctio quam?</p>
+                            <p>该公司本身是一家非常成功的公司。他们应得什么样的仇恨和罪孽，有什么样的区别？</p>
+                        </div>
+                        <form action="">
+                            <label for="" >0/10</label>
+                            <input type="text">
+                        </form>
+                    </div>
+                    <div class="content-label">
+                        <div class="content-label-text">
+                            <h4 >1</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas odio culpa earum dignissimos,
+                                distinctio quam?</p>
+                            <p>该公司本身是一家非常成功的公司。他们应得什么样的仇恨和罪孽，有什么样的区别？</p>
+                        </div>
+                        <form action="">
+                            <label for="" >0/10</label>
+                            <input type="text">
+                        </form>
+                    </div>
+                    <div class="content-label">
+                        <div class="content-label-text">
+                            <h4 >1</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas odio culpa earum dignissimos,
+                                distinctio quam?</p>
+                            <p>该公司本身是一家非常成功的公司。他们应得什么样的仇恨和罪孽，有什么样的区别？</p>
+                        </div>
+                        <form action="">
+                            <label for="" >0/10</label>
+                            <input type="text">
+                        </form>
+                    </div>
+                    <div class="content-label">
+                        <div class="content-label-text">
+                            <h4 >1</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas odio culpa earum dignissimos,
+                                distinctio quam?</p>
+                            <p>该公司本身是一家非常成功的公司。他们应得什么样的仇恨和罪孽，有什么样的区别？</p>
+                        </div>
+                        <form action="">
+                            <label for="" >0/10</label>
+                            <input type="text">
+                        </form>
+                    </div>
+                    
+                    <div class="total">
+                        <p>Tổng (全部的): 2500</p>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <!-- Submit -->
+        <div class="btn">
+            <div class="container">
+                <div class="sub">
+                    <button id="btn-submit">Xác nhận (提交)</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="confirm-label">
+            <div class="container">
+                <div class="confirm-content">
+                    <div class="confirm-text">
+                        <h1> Lac Hong University</h1>
+                        <h2>50</h2>
+                        <span id="btn-label" class="sub-btn">Xác nhận (提交)</span>
+                        <span id="cancel" class="can-btn">Thoát (
+                            出口)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="container">
+                <div class="footer-text">
+                    <p>@Giao diện được thiết kế bởi khoa Công Nghệ Thông Tin </p>
+                    <p><i class="fa-solid fa-phone"></i> (+84)251 3 952 251</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+       
+        const cancel = document.querySelector('#cancel');
+        cancel.addEventListener('click', () => {
+            document.querySelector('.confirm-label').style.display = 'none';
+        });
+        const subMit = document.querySelector('#btn-submit'); console.log(subMit);
+        subMit.addEventListener('click', () => {
+            document.querySelector('.confirm-label').style.display = 'flex';
+        });
+
+        document.getElementById('btn-label').addEventListener('click', () => {
+            window.location = 'http://127.0.0.1:5500/html/login.html'
+        })
+    </script>
+</body>
+
+</html>

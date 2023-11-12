@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Kablammo&family=Montserrat:wght@300;400;500;600&family=Noto+Sans+TC:wght@500&family=Onest:wght@100;300;600;800&family=Poppins:wght@400;500;600&family=Raleway:ital,wght@0,300;0,700;1,400;1,700&family=Roboto:wght@300;500;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.lg-china{
+    font-family:Hind+Siliguri ;
+    font-size: 500;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* header logo */
+header > img{
+    width: 40%;
+
+}
+.wapper{
+    flex: 1 ;
+}
+/* content */
+.content-rank{
+    width: 100%;
+    background-color:blanchedalmond;
+}
+/* Options */
+.content-rank .options-show-rank {
+    text-align: left;
+    padding: 12px 0;
+    background-color: #284f9e;
+    margin-top: 12px;
+}
+.content-rank .options-show-rank >select {
+    width: 300px;
+    padding: 12px 12px;
+    border-radius: 5px;
+}
+.content-rank .options-show-rank >button  {
+    width: 200px;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+/* top1,2,3 rank */
+
+.top-teams-list {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    flex-direction: column;
+}
+.top-teams-list {
+    margin-top: 12px;
+}
+.team-list-col>img {
+    box-sizing: 50%;
+    height: 80px;
+    width: 90px;
+    background-color: #000;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+.top1-team {
+    text-align: center;
+}
+.team-top2-3 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+/* fullrank */
+/* create table  */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+/* susses table */
+
+.remain-place {
+    background-color: #fff;
+}
+.content-allrank>h3 {
+    text-align: center;
+    background-color: #284f9e;
+}
+/* footer */
+.footer-text {
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+.footer-text >p{
+    align-items: center;
+    color: #000;
+    font-size: 11px;
+}
+.footer-text >p:last-child{
+    margin-left: 20px;
+}
